@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: greenyellow;
+    text-align: center;
+    width: 100%;
+    border-radius: 25px;
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li:hover{
+    background-color: burlywood;
+    border-radius: 5px;
+}
+.navbar fa{
+    margin-right: 10px;
+}
+.sub-menu-2{
+    display: none;
+}
+.navbar ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color: greenyellow;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+.navbar ul li:hover .sub-menu-2 ul{
+    display: block;
+}
+.navbar ul li:hover .sub-menu-2 ul li{
+    border-bottom: 1px dotted black;
+    background: transparent;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-2 ul li:last-child{
+    border-bottom: none;
+}
+.navbar ul li:hover .sub-menu-2 ul li a:hover{
+    color: white;
+}
+.sub-menu-3{
+    display: none;
+}
+.navbar ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    background-color: greenyellow;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+.navbar ul li:hover .sub-menu-3 ul{
+    display: block;
+}
+.navbar ul li:hover .sub-menu-3 ul li{
+    border-bottom: 1px dotted black;
+    background: transparent;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-3 ul li:last-child{
+    border-bottom: none;
+}
+.navbar ul li:hover .sub-menu-3 ul li a:hover{
+    color: white;
+}
+.sub-menu-4{
+    display: none;
+}
+.navbar ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    background-color: greenyellow;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+.navbar ul li:hover .sub-menu-4 ul{
+    display: block;
+}
+.navbar ul li:hover .sub-menu-4 ul li{
+    border-bottom: 1px dotted black;
+    background: transparent;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-4 ul li:last-child{
+    border-bottom: none;
+}
+.navbar ul li:hover .sub-menu-4 ul li a:hover{
+    color: white;
+}
+.sub-menu-5{
+    display: none;
+}
+.navbar ul li:hover .sub-menu-5{
+    display: block;
+    position: absolute;
+    background-color: greenyellow;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+.navbar ul li:hover .sub-menu-5 ul{
+    display: block;
+}
+.navbar ul li:hover .sub-menu-5 ul li{
+    border-bottom: 1px dotted black;
+    background: transparent;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu-5 ul li:last-child{
+    border-bottom: none;
+}
+.navbar ul li:hover .sub-menu-5 ul li a:hover{
+    color: white;
+}
